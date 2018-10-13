@@ -1,1 +1,1 @@
-console.log('Entry point');
+import App from './App';

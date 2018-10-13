@@ -2,14 +2,25 @@
   "name": "webpack-starter-kit",
   "version": "1.0.0",
   "description": "Webpack starter kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uanoob/webpack-starter-kit.git"
+  },
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "uanoob",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   }
